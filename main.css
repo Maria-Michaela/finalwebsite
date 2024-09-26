@@ -65,14 +65,39 @@ color: #292049;
 	margin-top: 20px;
 	width: 90%;
 	padding: 5px;
+  border-color: #292049;
 }
 
 .img{
 height: auto;
 width: auto;
-}
 
+}
+.about-img{
+  float: left;
+  margin-top: 7%;
+}
 .container{
   display: flex;
   column-gap: 0px;
 }
+p{
+  margin-left: 40%;
+  font-size: 20px;
+  margin-top: 5%;
+  text-align: left;
+}
+
+b{
+  font-size: 50px;
+}
+
+
+
+
+.icons{
+  background-color:#cac3e4;
+  float: left;
+}
+
+
