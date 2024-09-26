@@ -1,16 +1,19 @@
 body{
   margin: 0px;
   padding: 0px;
-  background: gray;
+  background: #cac3e4;
+  width: 100vw;
+  height: 100vh;
 }
 nav{
   width: 100%;
-  background: black;
+  background: #8474c1;
   overflow: auto;
+  height: auto;
 }
 ul{
   padding: 0px;
-  margin: 0px 0px 0px 150px;
+  margin: 10px 10px 10px 283px;
   list-style: none; 
 }
 li{
@@ -18,8 +21,8 @@ li{
 }
 .logo img{
   position: absolute;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 60px;
 }
 nav a{
   width: 100px;
@@ -27,18 +30,20 @@ nav a{
   padding: 20px 15px;
   text-decoration: none;
   font-family: Arial;
-  color: aqua;
+  color: white;
   text-align: center;
+  font-weight: bold;
 }
 nav a:hover {
 background-color: white;
 color: black;
 transition: 0.5s;
 text-transform: uppercase;
+text-decoration: underline;
 }
 nav a.active {
-background-color: #c5bee2;
-color: white;
+background-color: #dedaee;
+color: #292049;
 }
 .wholepage{
   margin: auto;
@@ -48,4 +53,8 @@ color: white;
 	/*background-color:#535c78;*/
 	height: 1130px;
   background-color: white;
+}
+.responsive {
+  width: auto;
+  height: auto;
 }
