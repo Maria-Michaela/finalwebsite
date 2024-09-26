@@ -76,9 +76,8 @@ color: #292049;
   border-color: #292049;
 }
 /*cotinuation of recipes*/
-.recipes{
-  background-color: #dedaee;
-  border-color: #292049;
+.block-content{
+  border: 2px solid #8474c1;
 }
 /*imges for about page*/
 .about-img{
