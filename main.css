@@ -48,10 +48,9 @@ color: #292049;
 .wholepage{
   margin: auto;
 	width: 70%;
-	/*border: 2px solid #535c78;*/
+	border: 2px solid #8474c1;
 	padding: 5px;
-	/*background-color:#535c78;*/
-	height: 1130px;
+	height: auto;
   background-color: white;
 }
 .responsive {
@@ -68,11 +67,6 @@ color: #292049;
   border-color: #292049;
 }
 
-.img{
-height: auto;
-width: auto;
-
-}
 .about-img{
   margin-left: 15%;
   margin-top: 7%;
@@ -101,3 +95,17 @@ iframe{
   background-color: #8474c1;
 }
 
+* {
+  box-sizing: border-box;
+}
+  .img-container {
+    float: left;
+    width: 20%;
+    padding-right: 20px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
