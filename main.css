@@ -58,3 +58,11 @@ color: #292049;
   width: auto;
   height: auto;
 }
+
+.images{
+  float: left;
+	margin:10px;
+	padding: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
