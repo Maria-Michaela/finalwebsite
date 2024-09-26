@@ -1,3 +1,5 @@
+
+/*this is the body of the whole webpage*/
 body{
   margin: 0px;
   padding: 0px;
@@ -12,20 +14,23 @@ nav{
   overflow: auto;
   height: auto;
 }
-/**/
+/*order the list*/
 ul{
   padding: 0px;
   margin: 10px 10px 10px 283px;
   list-style: none; 
 }
+/*list for nav*/
 li{
   float: left;
 }
+/*image in the bav bar*/
 .logo img{
   position: absolute;
   margin-top: 10px;
   margin-left: 60px;
 }
+/*text for nav*/
 nav a{
   width: 100px;
   display: block;
@@ -36,6 +41,7 @@ nav a{
   text-align: center;
   font-weight: bold;
 }
+/*highlights when mouse over nav links in nav bar*/
 nav a:hover {
 background-color: white;
 color: black;
@@ -43,11 +49,13 @@ transition: 0.5s;
 text-transform: uppercase;
 text-decoration: underline;
 }
+/*highlights page link when in current
+ page indecating active page.*/
 nav a.active {
 background-color: #dedaee;
 color: #292049;
 }
-/*Wholepage*/
+/*Wholepage to put content in*/
 .wholepage{
   margin: auto;
 	width: 70%;
@@ -56,12 +64,9 @@ color: #292049;
 	height: auto;
   background-color: white;
 }
-.responsive {
-  width: auto;
-  height: auto;
-}
 
-/*Contet page*/
+
+/*Content page*/
 .content{
 	margin: auto;
 	height: auto;
@@ -70,15 +75,17 @@ color: #292049;
 	padding: 5px;
   border-color: #292049;
 }
+/*cotinuation of recipes*/
+.recipes{
+  background-color: #dedaee;
+  border-color: #292049;
+}
 /*imges for about page*/
 .about-img{
   margin-left: 15%;
   margin-top: 7%;
 }
-.container{
-  display: flex;
-  column-gap: 0px;
-}
+/*This is for all the text in the website. */
 p{
   margin-left: 20%;
   margin-right: 20%;
@@ -86,7 +93,7 @@ p{
   margin-top: 10%;
   text-align: left;
 }
-
+/*This is for bold text*/
 b{
   font-size: 20px;
 }
@@ -102,6 +109,7 @@ iframe{
 * {
   box-sizing: border-box;
 }
+/*this is a container to put images*/
   .img-container {
     float: left;
     width: 20%;
